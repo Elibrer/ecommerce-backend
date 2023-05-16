@@ -61,7 +61,6 @@ router.delete('/:id', async (req, res) => {
 } catch (err) {
   res.status(400).json(err)
 }
-  // delete a category by its `id` value
 });
 
 module.exports = router;
